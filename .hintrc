@@ -2,12 +2,17 @@
   "extends": [
     "development"
   ],
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 17.2",
+    "not safari <= 17.2"
+  ],
   "hints": {
     "compat-api/css": [
       "default",
       {
         "ignore": [
-          "user-select",
           "@layer",
           "@layer"
         ]

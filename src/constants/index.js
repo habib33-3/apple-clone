@@ -21,7 +21,7 @@ export const hightlightsSlides = [
     ],
     video: highlightFirstVideo,
     videoDuration: 4,
-  },
+  }, 
   {
     id: 2,
     textLists: ["Titanium.", "So strong. So light. So Pro."],
